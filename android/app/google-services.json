@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653608327174",
+    "project_id": "plusefit-fc926",
+    "storage_bucket": "plusefit-fc926.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653608327174:android:df1e94b21e58b77d744b87",
+        "android_client_info": {
+          "package_name": "com.example.plusefit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuu5uobzXNcBShWi0Lkjjx-0Pi11eR01E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
