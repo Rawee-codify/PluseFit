@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plusefit/screen/get_started.dart';
 
 
 void main() {
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'plusefit',
-
+      home:GetStartedPage(),
 
     );
   }
