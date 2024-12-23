@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plusefit/screen/get_started.dart';
+import 'package:plusefit/screen/home.dart';
+//import 'package:plusefit/screen/get_started.dart';
+import 'package:plusefit/screen/splash_screen.dart';
 
 
 void main() {
@@ -12,8 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'plusefit',
-      home:GetStartedPage(),
+      home:SplashScreen(),
+      routes: {
+        '/home': (context) => HomePage(),
+      },
 
     );
   }
